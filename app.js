@@ -20,7 +20,7 @@ const getPOSTS=() => {
         const users= await getUsers()
         const data =await getPOSTS()
         console.log(users)
-        console.log(data)
+        console.log("Posts",data)
     }
     catch(e) {
         console.log(e)
